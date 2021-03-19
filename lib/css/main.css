@@ -24,9 +24,13 @@ body{
     background-color: #fff; 
     justify-content: start;
     width: 60%;
-    height: 100vh;
+    height: 80vh;
     margin: 5rem;
-    border-radius: 10%;
+    border-radius: 5%;
+
+    background-image: url("../imgs/4293312.jpg");
+    background-size: cover;
+    overflow: hidden;
 
 }
 
@@ -34,17 +38,42 @@ body{
     display: flex;
     align-items: flex-start;
     justify-content: center;
-    width: 50%;
+    width: 60%;
     padding: 2rem 0;
-    background-image: url("../imgs/4293312.jpg");
-    min-height: 34rem;
+    
+    
     
 }
 .login_form{
     display: flex;
+    flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
     width: 50%;
     min-height: 34rem;
     padding: 2rem;
+    background-color: #fff;
+}
+
+.login_register_select_btn{
+    display: flex;
+    align-items: flex-end;
+    width: 100%;
+    padding: 1rem;
+}
+
+.login_form_fields{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 1rem 0;
+}
+.f_group{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding: 2rem 0
 }
