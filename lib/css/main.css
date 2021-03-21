@@ -9,6 +9,10 @@
     font-size: 14px;
 }
 
+a{
+    color: rgb(112, 112, 112);
+}
+
 body{
     width: 100%;
     min-height: 100vh;
@@ -70,16 +74,17 @@ body{
     align-items: flex-end;
     width: 100%;
     padding: 1rem 1.5rem;
-    margin-right: -50rem;
+    margin-right: -35rem;
     
 }
 .login_register_select_btn a{
-    
-    background-color: #bcc7b3;
-    border-radius: 25%;
+    font-size: 1.1rem;
+    padding: 1rem 2rem;
 }
 .active_btn{
     background-color: #8BCD50;
+    border-radius: 25% 0% 0% 25%;
+    color: #fff;
 }
 .login_form_fields{
     display: flex;
