@@ -24,8 +24,8 @@ body{
     background-color: #fff; 
     justify-content: start;
     width: 60%;
-    height: 80vh;
-    margin: 5rem;
+    height: 60vh;
+    margin: 10rem;
     border-radius: 5%;
 
     background-image: url("../imgs/4293312.jpg");
@@ -36,13 +36,23 @@ body{
 
 .tagline{
     display: flex;
-    align-items: flex-start;
+    align-items: center;
     justify-content: center;
+    flex-direction: column;
     width: 60%;
-    padding: 2rem 0;
+    padding: 1rem 0;
+    color: rgb(226, 205, 135);
+    font-weight: bold;
     
-    
-    
+}
+.tagline p:nth-child(1){
+    margin-top: -30rem;
+    color: #cd5850;
+}
+
+.tagline p:nth-child(2){
+    margin-top: 1rem;
+    color: #cd5850;
 }
 .login_form{
     display: flex;
@@ -60,9 +70,13 @@ body{
     align-items: flex-end;
     width: 100%;
     padding: 1rem 1.5rem;
+    margin-right: -50rem;
+    
+}
+.login_register_select_btn a{
+    
     background-color: #bcc7b3;
     border-radius: 25%;
-    
 }
 .active_btn{
     background-color: #8BCD50;
@@ -90,4 +104,5 @@ body{
     border: 0;
     color: #fff;
     font-size: 1.5rem;
+    margin-bottom: 1rem;
 }
