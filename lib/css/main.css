@@ -51,12 +51,16 @@ body{
 }
 .tagline p:nth-child(1){
     margin-top: -30rem;
-    color: #cd5850;
+    color: #2b5e09;
+    font-weight: bold;
+    font-size: medium;
 }
 
 .tagline p:nth-child(2){
     margin-top: 1rem;
-    color: #cd5850;
+    color: #2b5e09;
+    font-weight: bold;
+    font-size: medium;
 }
 .login_form{
     display: flex;
@@ -71,10 +75,12 @@ body{
 
 .login_register_select_btn{
     display: flex;
-    align-items: flex-end;
+    align-items: center;
+    justify-content: right;
     width: 100%;
-    padding: 1rem 1.5rem;
-    margin-right: -35rem;
+    /* padding: 1rem 1.5rem; */
+    /* margin-right: -35rem; */
+    margin-top: 4rem;
     
 }
 .login_register_select_btn a{
@@ -102,6 +108,11 @@ body{
     padding: 2rem 0
 }
 
+.f_group h2{
+    margin-bottom: 10rem;
+    color: #8BCD50;
+    font-size: x-large;
+}
 .send_data_btn{
     background-color: #8BCD50;
     border-radius: 25%;
@@ -110,4 +121,9 @@ body{
     color: #fff;
     font-size: 1.5rem;
     margin-bottom: 1rem;
+}
+
+.f_group a{
+    margin-bottom: 4rem;
+    
 }
