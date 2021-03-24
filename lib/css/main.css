@@ -80,7 +80,7 @@ body{
     width: 100%;
     /* padding: 1rem 1.5rem; */
     /* margin-right: -35rem; */
-    margin-top: 4rem;
+    margin-top: 2rem;
     
 }
 .login_register_select_btn a{
@@ -109,7 +109,7 @@ body{
 }
 
 .f_group h2{
-    margin-bottom: 10rem;
+    margin-bottom: 3rem;
     color: #8BCD50;
     font-size: x-large;
 }
