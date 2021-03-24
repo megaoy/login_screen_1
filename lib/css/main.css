@@ -113,6 +113,18 @@ body{
     color: #8BCD50;
     font-size: x-large;
 }
+
+.inline_check_box{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 1rem;
+    
+}
+.inline_check_box label{
+    padding-left: 1rem;
+}
+
 .send_data_btn{
     background-color: #8BCD50;
     border-radius: 25%;
